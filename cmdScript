@@ -13,7 +13,7 @@ curl -X POST https://skylinev88871.uat1.evo-test.com/ua/v1/skylinev88871001/test
     "currency": "EUR",
     "session": {
       "id": "111ssss3333rrrrr45555",
-      "ip": "192.168.0.1"
+      "ip": "myIpAddress"
     }
   },
   "config": {
