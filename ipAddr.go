@@ -11,11 +11,9 @@ func getPublicIPv4() (string, error) {
 		return "", err
 	}
 	defer resp.Body.Close()
-
 	ip, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return "", err
 	}
-
 	return string(ip), nil
 }

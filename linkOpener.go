@@ -1,5 +1,6 @@
-/*package main
+package main
 
+/*
 import "github.com/gin-gonic/gin"
 
 func main() {
@@ -12,8 +13,6 @@ func main() {
 	r.Run()
 }
 */
-
-package main
 
 import (
 	"bytes"
