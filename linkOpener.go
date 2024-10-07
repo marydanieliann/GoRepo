@@ -1,5 +1,14 @@
 package main
 
+import (
+	"bytes"
+	"fmt"
+	"github.com/goccy/go-json"
+	"io/ioutil"
+	"net/http"
+	"net/url"
+)
+
 /*
 import "github.com/gin-gonic/gin"
 
@@ -13,15 +22,6 @@ func main() {
 	r.Run()
 }
 */
-
-import (
-	"bytes"
-	"encoding/json"
-	"fmt"
-	"io/ioutil"
-	"net/http"
-	"net/url"
-)
 
 func main() {
 	ip, err := getPublicIPv4()
